@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T00:14:39 IST" name="All Test Suite" finished-at="2022-01-25T00:14:48 IST" duration-ms="8810">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T00:14:39 IST" name="/RestAssuredAssignment" finished-at="2022-01-25T00:14:48 IST" duration-ms="8810">
+      <class name="com.tests.IntigralOTTTests">
+        <test-method signature="testOTTResponse(java.lang.String)[pri:0, instance:com.tests.IntigralOTTTests@6b19b79]" started-at="2022-01-25T00:14:40 IST" name="testOTTResponse" data-provider="getData" finished-at="2022-01-25T00:14:47 IST" duration-ms="7349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webB2BGDMSTGExy0sVDlZMzNDdUyZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOTTResponse -->
+        <test-method signature="validateErrorOnInvalidToken(java.lang.String)[pri:0, instance:com.tests.IntigralOTTTests@6b19b79]" started-at="2022-01-25T00:14:47 IST" name="validateErrorOnInvalidToken" data-provider="getDataForInvalidScenario" finished-at="2022-01-25T00:14:48 IST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webB2BGDMSTGExy0sVDlZMzNDdUyZ1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorOnInvalidToken -->
+      </class> <!-- com.tests.IntigralOTTTests -->
+    </test> <!-- /RestAssuredAssignment -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

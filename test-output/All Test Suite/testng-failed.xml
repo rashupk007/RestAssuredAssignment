@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.listeners.TestListener"/>
+  </listeners>
+  <test name="/RestAssuredAssignment(failed)" parallel="methods">
+    <classes>
+      <class name="com.tests.IntigralOTTTests">
+        <methods>
+          <include name="validateErrorOnInvalidToken" invocation-numbers="0"/>
+          <include name="testOTTResponse" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tests.IntigralOTTTests -->
+    </classes>
+  </test> <!-- /RestAssuredAssignment(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
